@@ -120,7 +120,7 @@ class Translate:
             html_page_url ='{}{}/{}'.format(self.domain, self.root_folder, site_root)
             ET.SubElement(doc, "loc").text = html_page_url
             ET.SubElement(doc, "lastmod").text = dt
-            ET.SubElement(doc, "changefreq").text = "weekly"
-            ET.SubElement(doc, "priority").text = "1.0"
+            #ET.SubElement(doc, "changefreq").text = "weekly"
+            #ET.SubElement(doc, "priority").text = "1.0"
         tree = ET.ElementTree(root)
         tree.write('sitemap.xml', encoding='utf-8', xml_declaration=True)
