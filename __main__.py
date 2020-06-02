@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import configparser as ConfigParser
+import logging
 import os
 from logging.config import fileConfig
 from translate import Translate
@@ -9,7 +10,8 @@ from translate import Translate
 def main():
     XML_DIR = config['SYSTEM']['xml_dir']
     HTML_DIR = config['SYSTEM']['html_dir']
-    translateObj = Translate(XML_DIR, HTML_DIR)
+    DOMAIN = config['SYSTEM']['server_domain']
+    translateObj = Translate(DOMAIN, XML_DIR, HTML_DIR)
     translateObj.parseXMLs()
     translateObj.generate_sitemap()
 
@@ -25,5 +27,5 @@ if __name__ == '__main__':
     if not os.path.exists(log_directory):
         os.makedirs(log_directory, exist_ok=True)
     fileConfig(log_config_path, defaults={'logfilename': log_file_path.replace("\\", "/")})
-    #logger = logging.getLogger()  # use this form to initialize the root logger
+    logger = logging.getLogger()  # use this form to initialize the root logger
     main()
