@@ -30,14 +30,15 @@ class Translate:
                 else: # TODO site?
                     pass
 
-            # TODO generate and write html file and then append the path to the sitemap list
+            # TODO generate and write html file and then append the path to the sitemap list (include server:port)
             html = self.generate_html(json_dict, jsonld)
-            html_path = xmlfile.replace(self.xml_dir, self.html_dir)
+            #html_path = xmlfile.replace(self.xml_dir, self.html_dir)
             #with open(html_path, "w") as file:
                 #file.write(str(html))
-            #self.sitemap.append(html_path)
+
 
     def convert_core_hole(self, raw):
+        #"@id": "http://example.org/id/igsn/ID","@type": "https://igsn.org/voc/v1/Sample",
         jsondict = None
         jsonld = None
         core = raw.get('core')
@@ -50,9 +51,14 @@ class Translate:
         return jsondict, jsonld
 
     def convert_sample(self, raw):
+        #"igsn": "XXXCSIRO0001",
+
         jsondict = None
         jsonld = None
-        core = raw.get('sample')
+        sample = raw.get('sample')
+        jsondict["@context"] = "https://raw.githubusercontent.com/IGSN/igsn-json/master/schema.igsn.org/json/registration/v0.1/context.jsonld"
+
+        print(sample)
 
         return jsondict, jsonld
 
