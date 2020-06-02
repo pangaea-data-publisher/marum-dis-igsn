@@ -1,0 +1,27 @@
+{
+  "@context": {
+   "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "recoveryDate": {
+      "@id": "http://purl.org/dc/terms/date",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+    
+  },
+  "@id": "_:N1cc9737dd08548c5b03ba99c94444c55",
+  "@type": "core",
+  "URL": "http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=26462",
+  "bottomDepth": "1.965",
+  "coreRecovery": "0.47",
+  "coreRepository": "BCR",
+  "curatedLength": "",
+  "drilledLength": "1.965",
+  "igsn": "IBCR0357ECK0001",
+  "number": "1",
+  "orgName": "MARUM",
+  "program": "IODP",
+  "recoveryDate": "2015-11-06",
+  "remarks": "",
+  "repositoryName": "Bremen-BCR",
+  "topDepth": "0",
+  "type": "R"
+}
