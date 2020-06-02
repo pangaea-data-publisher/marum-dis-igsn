@@ -1,0 +1,25 @@
+{
+  "@context": "https://raw.githubusercontent.com/IGSN/igsn-json/master/schema.igsn.org/json/registration/v0.1/context.jsonld",
+  "@id": "http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=26462&SAM=IBCR0357EX5W101",
+  "additionalType": "http://vocabulary.odm2.org/samplingfeaturetype/specimen",
+  "igsn": "http://hdl.handle.net/10273/IBCR0357EX5W101",
+  "registrant": {
+    "name": "MARUM, University of Bremen"
+  },
+  "related": [
+    {
+      "identifier": {
+        "id": "10273/IBCR0357ESJ0001",
+        "kind": "handle"
+      },
+      "relationship": "IsPartOf"
+    }
+  ],
+  "log": [
+    {
+      "type": "submitted",
+      "timestamp": "",
+      "comment": "sample_IBCR0357EX5W101"
+    }
+  ]
+}
