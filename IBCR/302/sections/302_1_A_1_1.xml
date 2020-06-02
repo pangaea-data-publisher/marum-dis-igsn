@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<sample xsl:schemaLocation='http://igsn.org/schema/kernel-v.1.0 http://doidb.wdc-terra.org/igsn/schemas/igsn.org/schema/1.0/igsn.xsd' xmlns:xsl='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://igsn.org/schema/kernel-v.1.0'>
+
+<sampleNumber identifierType="igsn">10273/IBCR0302RSG1BS2</sampleNumber>
+<dislink>http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=20983&amp;SEC=IBCR0302RSG1BS2</dislink>
+<registrant>
+<registrantName>MARUM, University of Bremen</registrantName>
+</registrant>
+<relatedResourceIdentifiers>
+<relatedIdentifier relatedIdentifierType="handle" relationType="IsPartOf">10273/IBCR0302RCV6G01</relatedIdentifier>
+
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RX8ONS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXMPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXBONS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RX48KZ3</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RX9ONS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXNPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXKPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXCONS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXOPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXIPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXLPNS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXAONS2</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="handle" relationType="HasPart">10273/IBCR0302RXJPNS2</relatedIdentifier>
+
+</relatedResourceIdentifiers>
+<log>
+<logElement comment="section_IBCR0302RSG1BS2" timeStamp="" event="submitted"/>
+</log>
+</sample>
+

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<site ID="1" xmlns="http://www.gesep.org/siteMetadata">
+<expedition ID="302">
+<name>Arctic Coring Expedition (ACEX)</name>
+</expedition>
+<coordinates>
+<latitudeDeg>87</latitudeDeg>
+<latitudeMin>16.12</latitudeMin>
+<latitudeDir>N</latitudeDir>
+<longitudeDeg>138</longitudeDeg>
+<longitudeMin>32.24</longitudeMin>
+<longitudeDir>W</longitudeDir>
+</coordinates>
+<holes>
+<hole ID="A">
+<cores>
+<core ID="20983"/>
+</cores>
+</hole>
+</holes>
+</site>

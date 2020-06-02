@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<core Hole="A" Site="1" Expedition="302" ID="20983" xmlns="http://www.gesep.org/coreMetadata">
+<coreDetails>
+<program>IODP</program>
+<orgName>MARUM</orgName>
+<remarks>IWRH @</remarks>
+<type>H</type>
+<number>1</number>
+<topDepth>0</topDepth>
+<bottomDepth>0.31</bottomDepth>
+<curatedLength></curatedLength>
+<drilledLength>0.31</drilledLength>
+<coreRecovery>0.31</coreRecovery>
+<recoveryDate>2004-08-16</recoveryDate>
+<coreRepository>BCR</coreRepository>
+<repositoryName>Bremen-BCR</repositoryName>
+<URL>http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=20983</URL>
+<igsn>IBCR0302RCV6G01</igsn>
+</coreDetails>
+
+<expedition ID ='302' Acr='Exp302'>
+<name>Arctic Coring Expedition (ACEX)</name>
+<program>IODP</program>
+<platform>Vidar Viking                  </platform>
+<startDate>2004-08-06</startDate>
+<endDate>2004-09-14</endDate>
+<chiefScientist>J. Backman / K. Moran</chiefScientist>
+<area>Lomonossov Ridge                                  </area>
+</expedition>
+
+<hole ID ='A'>
+<gear>RIG</gear>
+<latitudeDeg>87</latitudeDeg>
+<latitudeMin>54.216</latitudeMin>
+<latitudeDir>N</latitudeDir>
+<longitudeDeg>138</longitudeDeg>
+<longitudeMin>27.636</longitudeMin>
+<longitudeDir>E</longitudeDir>
+<startDate>2004-08-16</startDate>
+<endDate>2004-08-16</endDate>
+<waterDepth>1225</waterDepth>
+<elevation></elevation>
+<startDepth>0</startDepth>
+<endDepth>0.31</endDepth>
+<URL>http://dis.iodp.pangaea.de/BCRDIS/webview/HOLES_INFO.aspx?EXP=302&amp;SITE=1&amp;HOLE=A</URL>
+<igsn>IBCR0302RHSS001</igsn>
+</hole>
+
+</core>
+
