@@ -2,8 +2,7 @@
   "@context": {
    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "recoveryDate": {
-      "@id": "http://purl.org/dc/terms/date",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      "@id": "http://purl.org/dc/terms/date"
     }
     
   },
@@ -19,7 +18,10 @@
   "number": "1",
   "orgName": "MARUM",
   "program": "IODP",
-  "recoveryDate": "2015-11-06",
+  "recoveryDate": {
+    "@value": "2015-11-06",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
   "remarks": "",
   "repositoryName": "Bremen-BCR",
   "topDepth": "0",
