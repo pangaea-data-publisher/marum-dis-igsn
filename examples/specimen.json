@@ -1,25 +1,24 @@
 {
   "@context": "https://raw.githubusercontent.com/IGSN/igsn-json/master/schema.igsn.org/json/registration/v0.1/context.jsonld",
-  "@id": "http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=26462&SAM=IBCR0357EX5W101",
-  "additionalType": "http://vocabulary.odm2.org/samplingfeaturetype/specimen",
-  "igsn": "http://hdl.handle.net/10273/IBCR0357EX5W101",
+  "@id": "http://igsn.org/10273/IBCR0302RX8ONS2",
+  "@type": "Sample",
+  "additionalType": "http://pid.geoscience.gov.au/def/voc/ga/sampletype/borehole_specimen",
+  "igsn": "http://hdl.handle.net/10273/IBCR0302RX8ONS2",
   "registrant": {
     "name": "MARUM, University of Bremen"
   },
   "related": [
     {
       "identifier": {
-        "id": "10273/IBCR0357ESJ0001",
+        "id": "10273/IBCR0302RSG1BS2",
         "kind": "handle"
       },
       "relationship": "IsPartOf"
     }
   ],
-  "log": [
-    {
-      "type": "submitted",
-      "timestamp": "",
-      "comment": "sample_IBCR0357EX5W101"
-    }
-  ]
+  "log": {
+    "type": "submitted",
+    "timestamp": "",
+    "comment": "sample_IBCR0302RX8ONS2"
+  }
 }

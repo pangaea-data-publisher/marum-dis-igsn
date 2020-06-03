@@ -1,442 +1,107 @@
 {
   "@context": "https://raw.githubusercontent.com/IGSN/igsn-json/master/schema.igsn.org/json/registration/v0.1/context.jsonld",
-  "@id": "http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=26463&SEC=IBCR0357ESA3001",
+  "@id": "http://igsn.org/10273/IBCR0302RSG1BS2",
+  "@type": "Sample",
   "additionalType": "http://vocabulary.odm2.org/specimentype/coreSection",
-  "igsn": "http://hdl.handle.net/10273/IBCR0357ESA3001",
+  "igsn": "http://hdl.handle.net/10273/IBCR0302RSG1BS2",
   "registrant": {
     "name": "MARUM, University of Bremen"
   },
   "related": [
     {
       "identifier": {
-        "id": "10273/IBCR0357ECT3001",
+        "id": "10273/IBCR0302RCV6G01",
         "kind": "handle"
       },
       "relationship": "IsPartOf"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXQF001",
+        "id": "10273/IBCR0302RX8ONS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXUU001",
+        "id": "10273/IBCR0302RXMPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXVU001",
+        "id": "10273/IBCR0302RXBONS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXWU001",
+        "id": "10273/IBCR0302RX48KZ3",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXXU001",
+        "id": "10273/IBCR0302RX9ONS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXWX001",
+        "id": "10273/IBCR0302RXNPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXLB201",
+        "id": "10273/IBCR0302RXKPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357RXBWY14",
+        "id": "10273/IBCR0302RXCONS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXYU001",
+        "id": "10273/IBCR0302RXOPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EXZU001",
+        "id": "10273/IBCR0302RXIPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EX1V001",
+        "id": "10273/IBCR0302RXLPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EX2V001",
+        "id": "10273/IBCR0302RXAONS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
     },
     {
       "identifier": {
-        "id": "10273/IBCR0357EX0V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX3V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXAM001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXBM001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX5T001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX4V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX7V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX5V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX6V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX8V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX9V001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXAV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXBV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXCV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXDV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXFV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXDM001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXEM001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXHV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXEV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXIV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXJV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXKV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXLV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXBN001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXCN001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXMV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXEN001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXNV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXOV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXFN001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXHI001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXII001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXPV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXQV001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX9F001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXAF001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXBF001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXMG001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX7W101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX8W101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EX9W101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXAW101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXBW101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXCW101",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXNG001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXOG001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXPG001",
-        "kind": "handle"
-      },
-      "relationship": "HasPart"
-    },
-    {
-      "identifier": {
-        "id": "10273/IBCR0357EXQG001",
+        "id": "10273/IBCR0302RXJPNS2",
         "kind": "handle"
       },
       "relationship": "HasPart"
@@ -445,6 +110,6 @@
   "log": {
     "type": "submitted",
     "timestamp": "",
-    "comment": "section_IBCR0357ESA3001"
+    "comment": "section_IBCR0302RSG1BS2"
   }
 }
