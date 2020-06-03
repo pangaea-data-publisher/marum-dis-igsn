@@ -76,7 +76,9 @@ class Translate:
         sample = raw.get('sample')
         context_igsn_main = "https://raw.githubusercontent.com/IGSN/igsn-json/master/schema.igsn.org/json/registration/v0.1/context.jsonld"
         jsonld["@context"] = context_igsn_main
-        jsonld["@id"] = sample.get('dislink')
+        #jsonld["@id"] = sample.get('dislink')
+        jsonld["@id"] = 'http://igsn.org/'+sample.get('sampleNumber').get('#text')
+        jsonld["@type"] = "Sample"
         jsonld["additionalType"] = resource_type
         jsonld["igsn"] = 'http://hdl.handle.net/'+sample.get('sampleNumber').get('#text')
         jsonld["registrant"] = {"name": sample.get('registrant').get('registrantName')}
